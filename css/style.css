@@ -1,0 +1,60 @@
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Raleway; }
+
+.container {
+  margin-top: 4%;
+  margin-bottom: auto; }
+  .container .row {
+    border: 1px solid #888888;
+    box-shadow: 10px 10px 5px #888888; }
+    .container .row .col.s3.beer {
+      background-position: center;
+      background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/sanfrancisco.jpg"); }
+    .container .row .col.s3.wine {
+      background-position: center;
+      background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/city.jpg"); }
+    .container .row .col.s3.reviews {
+      background-size: auto 100%;
+      background-position: center;
+      background-position: center;
+      background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/reviews.jpg"); }
+    .container .row .col.s3.contact {
+      background-size: auto 100%;
+      background-position: center;
+      background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/contact.jpg"); }
+    .container .row .col.s3 {
+      height: 800px; }
+      .container .row .col.s3 #content p {
+        line-height: 25px;
+        font-family: Raleway; }
+      .container .row .col.s3 #content h5 {
+        margin-top: 40%;
+        color: white; }
+      .container .row .col.s3 #content hr {
+        width: 10%;
+        color: gold; }
+      .container .row .col.s3 #content h6 {
+        margin-top: 20%;
+        margin-bottom: -10%;
+        color: white;
+        font-size: 10px; }
+      .container .row .col.s3 #content #title {
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        font-weight: 5; }
+      .container .row .col.s3 #content #author_pic {
+        width: 20%;
+        height: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90%;
+        border-radius: 50%; }
+      .container .row .col.s3 #content #author {
+        text-align: center;
+        color: white; }
+
+/*# sourceMappingURL=style.css.map */
